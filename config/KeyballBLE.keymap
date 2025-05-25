@@ -61,7 +61,7 @@
 &kp Q             &kp W         &kp E         &kp R                   &kp T                                                       &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                   &kp G        &kp F3                      &kp BACKSLASH      &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &kp TAB                     &kp RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 6 LANG2  &lt 3 SPACE  &lt_to_layer_0 2 LANG1      &kp BACKSPACE      &lt 1 ENTER                             &kp DEL
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 6 LANG1  &lt 3 SPACE  &lt_to_layer_0 2 LANG2      &kp BACKSPACE      &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -78,10 +78,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE        &kp LG(TAB)             &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans      &kp UP_ARROW    &trans     &trans  &trans
-&kp TAB           &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp LEFT    &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
-&kp LEFT_SHIFT    &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &kp DELETE  &kp ENTER       &trans     &trans  &trans
-&kp LEFT_CONTROL  &kp LEFT_ALT            &kp LEFT_GUI    &trans                   &trans   &trans      &trans  &trans                                         &trans
+&kp ESCAPE        &kp LG(TAB)             &kp UP_ARROW    &kp LC(TAB)              &kp BACKSPACE                      &trans      &kp UP_ARROW    &trans     &trans  &trans
+&kp TAB           &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp ENTER      &trans      &trans  &kp LEFT    &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
+&kp LEFT_SHIFT    &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &kp END        &trans      &trans  &kp DELETE  &kp ENTER       &trans     &trans  &trans
+&kp LEFT_CONTROL  &kp LEFT_ALT            &kp LEFT_GUI    &trans                   &trans         &trans      &trans  &trans                                         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
