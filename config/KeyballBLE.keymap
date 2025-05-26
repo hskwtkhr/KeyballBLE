@@ -19,8 +19,8 @@
         compatible = "zmk,combos";
 
         double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+            bindings = <&lt 5 SPACE>;
+            key-positions = <19 18>;
         };
     };
 
@@ -99,7 +99,7 @@
         MOUSE {
             bindings = <
 &trans    &trans     &trans     &trans     &trans                           &trans    &trans              &trans               &trans     &kp HOME
-&mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB5  &mkp LCLK      &trans  &mkp MB4  &mkp LCLK           &mkp MCLK            &mkp RCLK  &kp SPACE
+&mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB5  &mkp LCLK      &trans  &mkp MB4  &mkp LCLK           &mkp RCLK            &mkp RCLK  &kp SPACE
 &trans    &trans     &trans     &trans     &trans    &mkp RCLK      &trans  &trans    &kp RG(LEFT_ARROW)  &kp RG(RIGHT_ARROW)  &trans     &trans
 &trans    &trans     &trans     &trans     &trans    &trans         &trans  &trans                                                        &trans
             >;
