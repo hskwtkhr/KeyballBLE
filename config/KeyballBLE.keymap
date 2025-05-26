@@ -98,8 +98,8 @@
 
         MOUSE {
             bindings = <
-&trans    &trans     &trans     &trans     &trans                           &trans    &trans              &trans               &trans     &trans
-&mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB5  &mkp LCLK      &trans  &mkp MB4  &mkp LCLK           &mkp MCLK            &mkp RCLK  &mkp MB5
+&trans    &trans     &trans     &trans     &trans                           &trans    &trans              &trans               &trans     &kp HOME
+&mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB5  &mkp LCLK      &trans  &mkp MB4  &mkp LCLK           &mkp MCLK            &mkp RCLK  &kp SPACE
 &trans    &trans     &trans     &trans     &trans    &mkp RCLK      &trans  &trans    &kp RG(LEFT_ARROW)  &kp RG(RIGHT_ARROW)  &trans     &trans
 &trans    &trans     &trans     &trans     &trans    &trans         &trans  &trans                                                        &trans
             >;
