@@ -23,39 +23,9 @@
             key-positions = <19 18>;
         };
 
-        lock {
-            bindings = <&kp LG(KP_NUMBER_2)>;
-            key-positions = <37 38 1>;
-        };
-
-        kakusu {
-            bindings = <&kp LG(KP_NUMBER_3)>;
-            key-positions = <2 37 38>;
-        };
-
-        unlock {
-            bindings = <&none>;
-            key-positions = <11 37 38>;
-        };
-
-        miseru {
-            bindings = <&kp LG(LA(KP_NUMBER_3))>;
-            key-positions = <12 37 38>;
-        };
-
-        spac {
-            bindings = <&kp SPACE>;
+        layer7 {
+            bindings = <&lt 7 LEFT_GUI>;
             key-positions = <37 38>;
-        };
-
-        artboard {
-            bindings = <&kp LG(KP_NUMBER_1)>;
-            key-positions = <1 38 37>;
-        };
-
-        artboard_all {
-            bindings = <&kp LG(LA(KP_NUMBER_0))>;
-            key-positions = <11 37 38>;
         };
     };
 
@@ -96,7 +66,7 @@
 &kp Q             &kp W         &kp E         &kp R                   &kp T                                                       &kp Y        &kp U    &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                   &kp G        &kp F3                      &kp BACKSLASH      &kp H        &lt 5 J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &kp TAB                     &kp RIGHT_BRACKET  &kp N        &kp M    &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 6 LANG1  &lt 3 SPACE  &lt_to_layer_0 2 LANG2      &kp BACKSPACE      &lt 1 ENTER                               &kp ENTER
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 6 LANG1  &lt 3 SPACE  &lt_to_layer_0 2 LANG2      &kp BACKSPACE      &lt 1 SPACE                               &kp ENTER
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -160,10 +130,10 @@
 
         layer_7 {
             bindings = <
-&trans  &kp LG(KP_NUMBER_2)      &kp LG(KP_NUMBER_3)      &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(LA(KP_NUMBER_2))  &kp LG(LA(KP_NUMBER_3))  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                   &trans  &trans  &trans      &trans  &trans                          &trans
+&kp LG(KP_NUMBER_1)      &kp LG(KP_NUMBER_2)      &kp LG(KP_NUMBER_3)      &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&kp LG(LA(KP_NUMBER_1))  &kp LG(LA(KP_NUMBER_2))  &kp LG(LA(KP_NUMBER_3))  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans                   &trans                   &trans                   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans                   &trans                   &trans                   &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
