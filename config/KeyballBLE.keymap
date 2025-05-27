@@ -30,7 +30,7 @@
 
         kakusu {
             bindings = <&kp LG(KP_NUMBER_3)>;
-            key-positions = <2>;
+            key-positions = <2 37 38>;
         };
 
         unlock {
@@ -41,6 +41,11 @@
         miseru {
             bindings = <&kp LG(LA(KP_NUMBER_3))>;
             key-positions = <12 37 38>;
+        };
+
+        spac {
+            bindings = <&kp SPACE>;
+            key-positions = <37 38>;
         };
     };
 
