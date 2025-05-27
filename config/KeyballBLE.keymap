@@ -81,7 +81,6 @@
             >;
         };
 
-
         ARROW {
             bindings = <
 &kp ESCAPE      &kp LG(TAB)         &trans          &kp UP_ARROW         &kp BACKSPACE                           &trans      &kp UP_ARROW    &trans     &trans  &trans
@@ -131,8 +130,8 @@
 
         layer_7 {
             bindings = <
-&kp LG(KP_NUMBER_1)      &kp LG(KP_NUMBER_2)      &kp LG(KP_NUMBER_3)      &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&kp LG(LA(KP_NUMBER_1))  &kp LG(LA(KP_NUMBER_2))  &kp LG(LA(KP_NUMBER_3))  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LG(KP_NUMBER_0)      &kp LG(KP_NUMBER_2)      &kp LG(KP_NUMBER_3)      &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&kp LG(LA(KP_NUMBER_0))  &kp LG(LA(KP_NUMBER_2))  &kp LG(LA(KP_NUMBER_3))  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans                   &trans                   &trans                   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans                   &trans                   &trans                   &trans  &trans  &trans      &trans  &trans                          &trans
             >;
