@@ -24,7 +24,7 @@
         };
 
         layer7 {
-            bindings = <&lt 7 CAPSLOCK>;
+            bindings = <&lt 7 SPACE>;
             key-positions = <37 38>;
         };
     };
