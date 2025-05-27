@@ -47,6 +47,16 @@
             bindings = <&kp SPACE>;
             key-positions = <37 38>;
         };
+
+        artboard {
+            bindings = <&kp LG(KP_NUMBER_1)>;
+            key-positions = <1 38 37>;
+        };
+
+        artboard_all {
+            bindings = <&kp LG(LA(KP_NUMBER_0))>;
+            key-positions = <11 37 38>;
+        };
     };
 
     macros {
