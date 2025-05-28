@@ -130,10 +130,10 @@
 
         layer_7 {
             bindings = <
-&kp LG(KP_NUMBER_0)      &kp LG(KP_NUMBER_2)      &kp LG(KP_NUMBER_3)      &kp LG(LA(DOWN_ARROW))  &kp LG(LA(UP_ARROW))                      &trans  &trans  &trans  &trans  &trans
-&kp LG(LA(KP_NUMBER_0))  &kp LG(LA(KP_NUMBER_2))  &kp LG(LA(KP_NUMBER_3))  &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT))     &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans                   &trans                   &trans                   &kp LG(LS(COMMA))       &kp LS(LG(PERIOD))    &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans                   &trans                   &trans                   &trans                  &trans                &trans      &trans  &trans                          &trans
+&kp LG(KP_NUMBER_0)      &kp LG(KP_NUMBER_2)       &kp LG(KP_NUMBER_3)        &kp LG(LA(DOWN_ARROW))  &kp LG(LA(UP_ARROW))                      &trans  &trans  &trans  &trans  &trans
+&kp LG(LA(KP_NUMBER_0))  &kp LG(LA(KP_NUMBER_2))   &kp LG(LA(KP_NUMBER_3))    &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT))     &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans                   &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &kp LG(LS(COMMA))       &kp LS(LG(PERIOD))    &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans                   &trans                    &trans                     &trans                  &trans                &trans      &trans  &trans                          &trans
             >;
         };
     };
