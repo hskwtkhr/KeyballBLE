@@ -27,6 +27,11 @@
             bindings = <&lt 7 LEFT_GUI>;
             key-positions = <37 38>;
         };
+
+        redo {
+            bindings = <&kp LG(LS(Z))>;
+            key-positions = <36 34 22>;
+        };
     };
 
     macros {
@@ -103,10 +108,10 @@
 
         MOUSE {
             bindings = <
-&trans    &trans     &trans     &trans     &trans                           &trans    &trans              &trans               &trans     &kp HOME
-&mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB5  &mkp LCLK      &trans  &mkp MB4  &mkp LCLK           &mkp RCLK            &mkp RCLK  &kp SPACE
-&trans    &trans     &trans     &trans     &trans    &mkp RCLK      &trans  &trans    &kp RG(LEFT_ARROW)  &kp RG(RIGHT_ARROW)  &trans     &trans
-&trans    &trans     &trans     &trans     &trans    &trans         &trans  &trans                                                        &trans
+&trans    &trans     &trans     &trans     &trans                           &trans     &trans              &trans               &trans     &kp HOME
+&mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB5  &mkp LCLK      &trans  &mkp MB4   &mkp LCLK           &mkp RCLK            &mkp RCLK  &kp SPACE
+&trans    &trans     &trans     &trans     &trans    &mkp RCLK      &trans  &kp SPACE  &kp RG(LEFT_ARROW)  &kp RG(RIGHT_ARROW)  &trans     &trans
+&trans    &trans     &trans     &trans     &trans    &trans         &trans  &trans                                                         &trans
             >;
         };
 
