@@ -19,7 +19,7 @@
         compatible = "zmk,combos";
 
         scroll {
-            bindings = <&lt 6 SPACE>;
+            bindings = <&lt 5 SPACE>;
             key-positions = <19 18>;
         };
 
