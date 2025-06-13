@@ -126,10 +126,10 @@
 
         layer_6 {
             bindings = <
-&kp ESCAPE      &kp BACKSPACE  &kp LG(LS(LC(NUMBER_4)))  &trans     &kp BACKSPACE                                &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &kp BACKSPACE
-&kp ENTER       &kp LEFT_ALT   &kp LEFT_GUI              &kp SPACE  &kp ENTER      &trans           &bootloader  &bt BT_SEL 2  &mkp LCLK     &trans  &trans  &trans
-&kp LG(Z)       &trans         &trans                    &kp LG(C)  &kp LG(V)      &bootloader      &bootloader  &bt BT_SEL 4  &trans        &trans  &trans  &bt BT_CLR
-&kp LEFT_SHIFT  &trans         &trans                    &trans     &trans         &trans           &trans       &trans                                      &bt BT_CLR_ALL
+&kp ESCAPE      &kp LG(TAB)   &kp LG(LS(LC(NUMBER_4)))  &trans     &kp BACKSPACE                                &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &kp BACKSPACE
+&kp ENTER       &kp LEFT_ALT  &kp LEFT_GUI              &kp SPACE  &kp ENTER      &trans           &bootloader  &bt BT_SEL 2  &mkp LCLK     &trans  &trans  &trans
+&kp LG(Z)       &trans        &trans                    &kp LG(C)  &kp LG(V)      &bootloader      &bootloader  &bt BT_SEL 4  &trans        &trans  &trans  &bt BT_CLR
+&kp LEFT_SHIFT  &trans        &trans                    &trans     &trans         &trans           &trans       &trans                                      &bt BT_CLR_ALL
             >;
         };
 
