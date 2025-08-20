@@ -95,7 +95,7 @@
             bindings = <
 &kp ESCAPE      &trans  &trans          &kp UP_ARROW    &trans                                  &trans      &kp UP_ARROW    &trans     &trans  &trans
 &kp TAB         &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &trans  &kp LEFT    &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
-&kp LEFT_SHIFT  &trans  &trans          &trans          &kp HOME         &kp SPACE      &trans  &kp DELETE  &kp ENTER       &trans     &trans  &trans
+&kp LEFT_SHIFT  &trans  &trans          &kp DOWN_ARROW  &kp HOME         &kp SPACE      &trans  &kp DELETE  &kp ENTER       &trans     &trans  &trans
 &trans          &trans  &trans          &trans          &trans           &trans         &trans  &trans                                         &trans
             >;
 
