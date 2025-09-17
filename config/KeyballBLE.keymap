@@ -34,8 +34,9 @@
         };
 
         Layer_7 {
-            bindings = <&to 7>;
+            bindings = <&mo 7>;
             key-positions = <37 38>;
+            layers = <7>;
         };
     };
 
