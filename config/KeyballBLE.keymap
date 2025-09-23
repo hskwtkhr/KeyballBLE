@@ -38,6 +38,12 @@
             key-positions = <37 38>;
             layers = <7>;
         };
+
+        jikken7 {
+            bindings = <&mo 7>;
+            key-positions = <25 26>;
+            layers = <7>;
+        };
     };
 
     macros {
